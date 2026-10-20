@@ -9,6 +9,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp()
+    return MaterialApp(
+      title: 'Aplikasi Mahasiswa',
+      debugShowCheckedModeBanner: false,
+      home: MyWidget(),
+      ),
+  }
+}
+
+class MyWidget extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: const Text('Rafa Fathur Rohman'),
+    )
   }
 }
