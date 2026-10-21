@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.green)
       ),
-      ),
+      );
   }
 }
 
@@ -27,6 +27,9 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Dashboard Mahasiswa"),
+      ),
       body: const Text('Rafa Fathur Rohman'),
     )
   }
