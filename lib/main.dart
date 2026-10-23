@@ -13,10 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Aplikasi Mahasiswa',
       debugShowCheckedModeBanner: false,
       home: MyWidget(),
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green)
-      ),
+      theme: ThemeData.dark(),
       );
   }
 }
