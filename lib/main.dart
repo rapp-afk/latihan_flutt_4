@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyWidget extends StatelessWidget {
+class widget2 extends StatelessWidget {
   const new({super.key});
 
   @override
